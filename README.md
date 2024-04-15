@@ -7,9 +7,10 @@ This is a Django-based application for managing messages between users. It provi
 **Features**
 
 - User registration with password validation
+- Messages retrieval for a user based on optional `unread` filter
 - Message sending with sender, receiver, subject, and message body fields
-- Message retrieval for a user based on optional `unread` filter
 - Message deletion based on sender or receiver username (one required)
+- Message reading
 
 **Installation**
 
@@ -17,7 +18,7 @@ This is a Django-based application for managing messages between users. It provi
 2. **Clone the repository:**
 
    ```bash
-   git clone https://docs.github.com/articles/changing-your-github-username
+   git clone https://github.com/SayWut/messaging-system
    ```
 
 3. **Create a virtual environment (recommended):**
