@@ -5,7 +5,7 @@ set -o errexit
 pip install -r requirements.txt
 
 # Apply any outstanding database migrations
-python manage.py migrate --run-syncdb
+python manage.py migrate
 
 if [[ $CREATE_SUPERUSER ]];
 then
