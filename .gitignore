@@ -1,0 +1,18 @@
+# Dependencies
+venv/
+
+# Bytecode
+*.py[cod]
+__pycache__/
+
+# IDE and OS specific files
+.idea/
+.vscode/
+.history/
+local_settings.py
+
+# Logs
+*.log
+
+# SQLite3 database file
+db.sqlite3
